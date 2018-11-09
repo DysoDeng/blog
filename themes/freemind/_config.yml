@@ -1,0 +1,70 @@
+slogan: "渺渺兮予怀，望美人兮天一方"
+
+theme: yeti
+inverse: false
+
+menu:
+  - title: 归档
+    url: archives
+    intro: "文章归档"
+    icon: "fa fa-archive"
+  - title: 分类
+    url: categories
+    intro: "文章分类"
+    icon: "fa fa-folder"
+  - title: 标签
+    url: tags
+    intro: "标签云"
+    icon: "fa fa-tags"
+  - title: 关于我
+    url: about
+    intro: "关于我"
+    icon: "fa fa-user"
+
+links:
+  - title: "Github"
+    url: http://www.github.com/dysodeng
+    intro: "Github Account."
+    icon: "fa fa-github"
+
+widgets:
+- search
+- recent_comments
+- category
+- tagcloud
+- recent_posts
+- links
+
+rss:
+fancybox: true
+favicon: https://avatars1.githubusercontent.com/u/6215288
+duoshuo_shortname: #freemindtheme
+
+# Recommended posts
+# Dependency: https://github.com/huiwang/hexo-recommended-posts
+recommended_posts:
+  enabled: false
+
+# Analytics
+google_analytics:
+  enable: false
+  siteid:
+baidu_tongji:
+  enable: false
+  siteid:
+
+# search
+# swiftype_key: ZP2ZSuHgipSZfRyU8uTR
+
+# share widgets
+bdshare: true
+jiathis: false
+
+# built-in comment system
+comment_js:
+  type: "github"
+  user: "dysodeng"
+  repo: "blog"
+  client_id: "5a9fcba5fe8256865dad"
+  client_secret: "ba4b531a37217ef89a2edc12fdb479b4eaa1eeee"
+  count: 5
